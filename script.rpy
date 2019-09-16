@@ -748,7 +748,12 @@ label start:
     hide long_island
     show laffey at center
 
-    la "Attack power UP? Heh. Right?"
+    la "Attack power UP? "
+
+    hide laffey
+    show mccall at center
+
+    mc "Heh. Right?"
 
     scene black with Dissolve(2)
 
