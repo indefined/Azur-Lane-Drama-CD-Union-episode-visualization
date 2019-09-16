@@ -824,7 +824,14 @@ screen preferences():
                         textbutton _("Mute All"):
                             action Preference("all mute", "toggle")
                             style "mute_all_button"
+                #begin language_picker
+                vbox:
+                    style_prefix "radio"
+                    label _("Language")
 
+                    textbutton "English" text_font "DejaVuSans.ttf" action Language(None)
+                    textbutton "简体中文" text_font "SourceHanSans-Light-Lite.ttf" action Language("simplified_chinese")
+                #end language_picker
 
 style pref_label is gui_label
 style pref_label_text is gui_label_text
