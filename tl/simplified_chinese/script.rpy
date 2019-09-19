@@ -84,7 +84,7 @@ translate simplified_chinese start_f6116cd3:
 translate simplified_chinese start_9cbf3e1a:
 
     # mc "Like, you know all those mushrooms San Diego’s been growing in her room?"
-    mc "因为是在那个圣地亚哥的宿舍里大量繁殖的蘑菇啊…"
+    mc "因为这是圣地亚哥在宿舍里大量繁殖的蘑菇啊…"
 
 # game/script.rpy:140
 translate simplified_chinese start_b5b85267:
@@ -169,13 +169,13 @@ translate simplified_chinese start_d8576a40:
 translate simplified_chinese start_d33d5477:
 
     # li "I may be a ghost, but I’m not gonna risk my life eating unidentified mushrooms."
-    li "就算是幽灵，也不想不要命去尝未知的蘑菇啊"
+    li "就算是幽灵，也不想不知死活去尝来路不明的蘑菇啊"
 
 # game/script.rpy:223
 translate simplified_chinese start_722633c1:
 
     # la "Did we risk our lives?"
-    la "拉菲我们是不要命了？"
+    la "拉菲我们是不知死活？"
 
 # game/script.rpy:228
 translate simplified_chinese start_1cb5a29c:
