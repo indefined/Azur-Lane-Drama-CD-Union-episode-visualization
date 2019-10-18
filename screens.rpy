@@ -830,7 +830,6 @@ screen preferences():
                     label _("Language")
 
                     textbutton "English" text_font "DejaVuSans.ttf" action Language(None)
-                    textbutton "简体中文" text_font "SourceHanSans-Light-Lite.ttf" action Language("simplified_chinese")
                 #end language_picker
 
 style pref_label is gui_label

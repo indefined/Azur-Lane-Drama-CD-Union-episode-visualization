@@ -117,6 +117,16 @@ transform dance_after:
     xoffset 0 yoffset 0 rotate 0
 
 
+transform fallL:
+    rotate -90
+    yoffset 100
+
+
+transform fallR:
+    rotate 90
+    yoffset 100
+
+
 transform grabL:
     xoffset 0
     easein_quad 0.5 xoffset -550
