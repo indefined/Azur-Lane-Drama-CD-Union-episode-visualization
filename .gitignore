@@ -1,4 +1,7 @@
 # Development use only.
-_calculator.py
-saves/
-cache/
+game/_calculator.py
+game/saves/
+game/cache/
+game/audio/
+*.txt
+dialogue.tab
