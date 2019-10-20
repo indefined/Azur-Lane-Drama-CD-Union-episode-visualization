@@ -35,7 +35,7 @@ label start:
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 
-    "(敲门声)"
+    "(脚步声)"
 
     show long_island dark at center
     show long_island with dis
@@ -133,6 +133,7 @@ label start:
     sd "这种时候，就该啪啪的把灯打开~"
 
     scene bg room6
+    pause
 
     hide san_diego
     show laffey at left
@@ -156,13 +157,13 @@ label start:
     hide mccall
     show long_island dark with dis
 
-    cs "zzZ"
+    cs "(zzZ)"
 
     show long_island at left, fallR
     li "呀！"
 
     show long_island dark with dis
-    cs "zzZ"
+    cs "(zzZ)"
 
     show san_diego at right, dance
 
@@ -193,7 +194,7 @@ label start:
     hide mccall
     show long_island dark with dis
 
-    cs "zzZ"
+    cs "(zzZ zzZ)"
 
     show long_island
 
@@ -211,7 +212,7 @@ label start:
     la "果然是毒蘑菇？"
 
     hide mccall
-    show san_diego at right
+    show san_diego at right, dance
     show laffey dark with dis
 
     sd "毒？啊，这和那个一样~"
@@ -243,8 +244,7 @@ label start:
     show laffey
     show long_island dark
 
-    la "嗯，和那个故事一样的话，睡美人公主亲一下就会醒"
-    la "应该"
+    la "嗯，和那个故事一样的话，睡美人公主亲一下就会醒，应该"
 
     hide long_island
     show mccall at left
@@ -361,7 +361,7 @@ label start:
     show cassin at right
     show laffey dark with dis
 
-    cs "啊~"
+    cs "嗯……啊~"
     cs "啊咧？大家，为什么？"
 
     hide laffey
@@ -380,7 +380,7 @@ label start:
     show san_diego at left, dance
     show long_island dark with dis
 
-    sd "耶~结果挺好的呢，高兴的，舞蹈~"
+    sd "耶~结果挺好的嘛，高兴的，舞蹈~"
 
     hide long_island
     show cassin at right
@@ -429,11 +429,10 @@ label start:
     show long_island
     show cassin dark
 
-    li "到这里了，就尽情增加同伴了，不准反驳"
+    li "都到这里了，就尽情增加同伴了，不准反驳"
 
     show long_island at moveR
     pause 1
-
     show long_island at grabR
     show cassin at grabR
     cs "啊……咧……"
@@ -463,7 +462,7 @@ label start:
     show mccall
     show laffey dark
 
-    mc "吵闹程度更进一步了……"
+    mc "更吵了……"
 
     hide laffey
     show san_diego at left, dance
@@ -483,10 +482,403 @@ label start:
 
     hide laffey
     hide mccall
-    window hide
 
+    scene bg home with Fade(2, 2, 2)
+    show light at reset, spark
+    with Dissolve(1)
+    "(电流声……)"
+    show long_island at left, shake1
 
-    scene black with Dissolve(2)
+    li "嗯……下一个找埃尔德里奇吗？"
+
+    show mccall at right
+    show long_island dark with dis
+
+    mc "蘑菇party的出席者还有两位，本来是想着就近先找埃尔德里奇的……是不是出了什么问题了"
+
+    show long_island at left, bobble1
+    show mccall dark with dis
+
+    li "问题大了去了……门缝里都霹雳霹雳地传出了不得了的声音和光线了，肯定不是小事"
+
+    hide mccall
+    show cassin at right
+    show long_island dark with dis
+
+    cs "好耀眼，刚睡醒遭不住啊"
+
+    hide long_island
+    show laffey at left
+    show cassin dark with dis
+
+    la "卡辛还很困吗"
+
+    hide cassin
+    show san_diego at right, dance
+    show laffey dark with dis
+
+    sd "哈哈哈是火花~踩着霹雳霹雳的节奏，跳舞吧~"
+
+    hide laffey
+    show long_island at left, shake1
+    show san_diego dark with dis
+
+    li "圣地亚哥，趁着这气势把门打开，幽灵小姐害怕得不敢接近"
+
+    show san_diego
+    show long_island dark with dis
+
+    sd "OK！交给我吧，舞蹈攻击~~~~~~"
+    hide long_island
+    show san_diego at moveL, dance
+
+    pause 1
+    show laffey at right, shake1
+    show san_diego dark
+
+    la "哇，圣地亚哥旋转着朝着门去了"
+
+    show san_diego
+    show laffey dark with dis
+
+    sd "上了，开门……哇哇哇！！"
+
+    show san_diego at left, dance
+
+    sd "哇哇哇，哔哩哔哩~~~~~来了……"
+
+    hide laffey
+    show mccall at right
+    show san_diego dark with dis
+
+    mc "直接被电击命中"
+
+    show san_diego dark at left, fallR
+    show mccall
+
+    mc "啊，倒了"
+
+    hide mccall
+    show long_island at center
+    pause 0.1
+    show long_island at moveL
+
+    li "圣地亚哥！！！啊，悲剧啊！"
+    li "但是大家，现在不能哭，门已经开了，长岛我们要把同伴伟大的牺牲刻在胸膛，朝前进发"
+
+    show laffey at right
+    hide long_island
+    show san_diego dark at left, shake1
+
+    la "拉菲并没有在哭，而且圣地亚哥霹雳霹雳地还在动"
+
+    hide laffey
+    show mccall at right
+
+    mc "大概只是晕了吧"
+
+    hide san_diego
+    show cassin at left
+    show mccall dark with dis
+
+    cs "趁着功夫，我也睡一觉可以吗"
+
+    hide cassin
+    show long_island at left, shake1
+
+    li "不能浪费圣地亚哥的牺牲，大家一起去确认埃尔德里奇的样子"
+
+    hide mccall
+    show laffey at right
+    show long_island dark with dis
+
+    la "但是这样，也没办法进去里面啊"
+
+    show long_island at left, shake1
+    show laffey dark with dis
+
+    li "通过门缝偷偷地观察里面的情况"
+
+    hide laffey
+    show mccall at right
+
+    mc "确实也不该放着她不管，卡辛，加油吧"
+
+    hide long_island
+    show cassin at left
+    show mccall dark with dis
+
+    cs "麦考尔都发生了这么多事还那么有干劲，虽然事情我粗略听了，你就这么想让胸变大吗"
+
+    show mccall
+    show cassin dark with dis
+
+    mc "不…不是啦，我只是好奇传言是不是真的而已"
+
+    show cassin at left, shake1
+    show mccall dark with dis
+
+    cs "嗯……"
+
+    hide cassin
+    show laffey at left, shake1
+
+    la "拉菲我想让胸变大起来看指挥官什么反应，他要是喜欢的话我会很高兴的，大概"
+
+    hide laffey
+    show cassin at left
+
+    cs "拉菲真是坦率"
+
+    show mccall
+    show cassin dark with dis
+
+    mc "能别说得仿佛我很不坦率的样子吗。话说回来现在比起这个更重要的是埃尔德里奇啊"
+
+    hide cassin
+    show long_island at left, shake1
+    show mccall dark with dis
+
+    li "大家快看，房间的深处"
+
+    hide mccall
+    show laffey at right
+    show long_island dark with dis
+
+    la "埃尔德里奇，找到了"
+
+    hide laffey
+    show cassin at right
+
+    cs "普通地站着啊，为什么这么霹雳霹雳地放电呢"
+
+    show long_island at left, bobble1
+    show cassin dark with dis
+
+    li "喂，埃尔德里奇~~~~~~~"
+
+    hide cassin
+    show long_island
+
+    scene bg room3
+    show light at reset, spark
+
+    show eldridge at center, bobble2
+
+    el "嗯？早上……好~~"
+
+    hide eldridge
+
+    show long_island at left, shake1
+
+    li "埃尔德里奇只是朝这边看过来，霹雳霹雳暴走起来了"
+
+    show cassin at right
+    show long_island dark with dis
+
+    cs "埃尔德里奇，究竟怎么了"
+
+    hide cassin
+    hide long_island
+
+    show eldridge at center
+
+    el "不知道，放电一直停不下来，就在房间里面呆着了"
+
+    hide eldridge
+    show laffey at right, bobble1
+
+    la "啊，埃尔德里奇的旁边，有没吃完的蘑菇"
+
+    hide eldridge
+    show mccall at left
+    show laffey dark with dis
+
+    mc "真的，那个颜色是跳舞蘑菇吧"
+
+    hide laffey
+    show long_island at right
+    show mccall dark with dis
+
+    li "但是，埃尔德里奇没有在跳舞啊"
+
+    hide mccall
+    show cassin at left
+    show long_island dark with dis
+
+    cs "嗯……仔细看，埃尔德里奇的手微妙地在动着"
+
+    hide long_island
+    show laffey at right, shake1
+    show cassin dark with dis
+
+    la "啊，拉菲稍微来试探一下"
+
+    hide cassin
+    show mccall at left
+    show laffey dark with dis
+
+    mc "试探？"
+
+    show laffey
+    show mccall dark
+
+    la "嗯。"
+
+    hide mccall
+    show laffey at moveC, bobble1
+
+    la "埃尔德里奇，Yeah!"
+
+    hide laffey
+    show eldridge at center, bobble1
+
+    el "Yeah!"
+
+    hide eldridge
+    show laffey at right
+
+    la "嗯，没有错，埃尔德里奇在踩着旋律"
+
+    show long_island at left, bobble1
+    show laffey dark with dis
+
+    li "那个真的是在跳舞啊，吓一跳"
+
+    hide long_island
+    show san_diego at left, dance
+
+    sd "嗯，埃尔德里奇也在跳舞？"
+
+    show laffey
+    show san_diego dark
+
+    la "啊，圣地亚哥复活了"
+
+    hide san_diego
+    show mccall at left
+    show laffey dark with dis
+
+    mc "也就是说埃尔德里奇吃了跳舞蘑菇之后情绪高涨起来了"
+
+    hide laffey
+    show cassin at right
+    show mccall dark
+
+    cs "因为这个的原因霹雳霹雳放电停不下来"
+
+    hide mccall
+    show long_island at left, shake1
+    show cassin dark with dis
+
+    li "嗯……但是知道原因了也不知道要怎么办啊"
+
+    hide cassin
+    show san_diego at right, dance
+    show long_island dark with dis
+
+    sd "没事没事，虽然只是大概，吃紫色的蘑菇就好了"
+
+    hide long_island
+    show laffey at left
+    show san_diego dark
+
+    la "紫色是…睡眠蘑菇？"
+
+    hide laffey
+    show mccall at left
+
+    mc "卡辛吃了睡着的那个是吧？"
+
+    show san_diego
+    show mccall dark
+
+    sd "YES！其实我昨天也吃了跳舞蘑菇，但是那时什么都没有发生，一定是一起吃了紫色蘑菇的问题吧"
+
+    hide mccall
+    show long_island at left, bobble1
+    show san_diego dark
+
+    li "对啊，让人情绪高涨不禁想跳舞的蘑菇，以及让人沉睡的蘑菇，一定是两种蘑菇功效抵消了"
+
+    hide san_diego
+    show laffey at right
+    show long_island dark with dis
+
+    la "那，应该回卡辛的房间，把睡眠蘑菇拿过来才行"
+
+    hide laffey
+    show cassin at right
+
+    cs "啊，那个蘑菇在过来的途中我扔掉了"
+
+    show long_island at left, bobble1
+    show cassin dark
+
+    li "为什么啊！！"
+
+    show cassin
+    show long_island dark with dis
+
+    cs "因为，以为是危险品……"
+
+    hide long_island
+    show laffey at left
+    show cassin dark with dis
+
+    la "确实，吃了很危险"
+
+    hide laffey
+    show long_island at left
+    show cassin dark with dis
+
+    li "现在马上去回收"
+    pause 0.5
+    show long_island at moveR
+    li "卡辛，跟上来"
+
+    show cassin
+    show long_island dark behind cassin
+
+    cs "啊，别拖我啊"
+
+    show laffey at left
+    show cassin dark
+
+    la "拉菲也去"
+
+    hide long_island
+    hide cassin
+    hide laffey
+    show mccall at right
+
+    mc "那我就和圣地亚哥一起留在这里看着埃尔德里奇的情况"
+
+    show san_diego at left, dance
+    show mccall dark with dis
+
+    sd "加油哦！Fight！"
+
+    hide san_diego
+    hide mccall
+    show eldridge at center
+
+    el "慢走…等你们"
+
+    hide eldridge
+    show cassin at right
+    show long_island at center
+
+    li "最大船速，跑起！"
+    pause 1.3
+    show cassin at grabR
+    show long_island at grabR
+    pause 0.2
+    show laffey at center
+    pause 0.2
+    show laffey at grabR
+
+    scene black with Dissolve(5)
 
     # This ends the game.
 
