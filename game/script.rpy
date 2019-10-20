@@ -85,14 +85,13 @@ label start:
 
     la "没反应"
 
-    hide san_diego
-    show long_island at right
-    show laffey dark with dis
+    hide laffey
+    show long_island at left
 
     li "奇怪，休息时间她应该是宅在船坞里才对"
 
-    hide laffey
-    show mccall at left
+    hide san_diego
+    show mccall at right
     show long_island dark with dis
 
     mc "是不是蛰伏状态被打扰不高兴了"
@@ -104,23 +103,22 @@ label start:
     li "同为家里蹲的我很能理解…"
 
     hide mccall
-    show san_diego at left, shake1
+    show san_diego at right, shake1
     show long_island dark with dis
 
     sd "没有锁门哦"
 
-    show san_diego dark at left, dance
+    show san_diego dark at right, dance
     show long_island
 
     li "真的？"
 
-    hide san_diego
+    hide long_island
     show laffey at left
-    show long_island dark with dis
 
     la "但是，里面漆黑一片"
 
-    hide long_island
+    hide san_diego
     show mccall at right
     show laffey dark with dis
 
@@ -179,7 +177,7 @@ label start:
     show mccall at right
     show laffey dark with dis
 
-    mc "但是长岛都摔倒在她身上，完全没醒来"
+    mc "但是长岛都摔倒得这么夸张，完全没醒来"
     mc "而且圣地亚哥也一直蹦蹦哒哒地在跳舞…"
 
     hide laffey
@@ -564,7 +562,7 @@ label start:
     show long_island at moveL
 
     li "圣地亚哥！！！啊，悲剧啊！"
-    li "但是大家，现在不能哭，门已经开了，长岛我们要把同伴伟大的牺牲刻在胸膛，朝前进发"
+    li "但是大家，不能哭，门已经开了，长岛我们要把同伴伟大的牺牲刻在胸膛，朝前进发"
 
     show laffey at right
     hide long_island
@@ -601,6 +599,7 @@ label start:
 
     hide laffey
     show mccall at right
+    show long_island dark with dis
 
     mc "确实也不该放着她不管，卡辛，加油吧"
 
