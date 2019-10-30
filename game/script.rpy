@@ -274,7 +274,7 @@ label start:
     hide cassin
     show akashi at moveR
 
-    ak "提问！你们是从哪听到的传言？"
+    ak "提问！你们知道传言的出处吗？"
 
     show laffey at left
     show akashi dark with dis
@@ -289,7 +289,7 @@ label start:
     show akashi
     show long_island dark with dis
 
-    ak "这样的话就由我情报通明石来提供一个特大建议吧~这个情报的出处似乎是海伦娜的样子喵~"
+    ak "这样的话就由我情报通明石来提供一个特大帮助吧~这个情报的出处似乎是海伦娜的样子喵~"
 
     hide long_island
     show laffey at left
@@ -311,7 +311,7 @@ label start:
 
     ak "呀呀？"
 
-    scene bg room3 with Fade(2, 2, 2)
+    scene bg room3 with Fade(1, 1, 1)
     show light at reset, spark
     with Dissolve(1)
 
@@ -369,7 +369,7 @@ label start:
     hide eldridge
     show long_island at left, shake1
 
-    li "看好了，这就是？？？，技术球投法哦"
+    li "看好了，这就是？？？？？，技术球投法哦"
 
     window hide
     show long_island at left, shake1
@@ -390,7 +390,7 @@ label start:
     hide mccall
     hide long_island
     show eldridge at center, bobble2
-    pause 2.5
+    pause 3
     hide light
 
     pause
