@@ -1,10 +1,10 @@
-# Azur-Lane-Drama-CD-Union-episode-visualization
+# Azur-Lane-Drama-CD-Union-episode-visualization part4
 
 A simple visual novel using the Ren'Py engine following the script of the Azur Lane Drama CD.
 
 This project is not a full fledged visual novel. Its main purpose is to mimic the appearance of story cutscenes in Azur Lane.
 
-This branch is base on the `base-orphan` branch, and set `simplified_chinese` as default language, witch purpose is to visualization with simplified_chinese.
+This branch is base on the `simplified_chinese` default language branch `base-sc`, and visualization the forth part of Union-episode.
 
 [简体中文介绍](./README.simplified_chinese.md)
 
