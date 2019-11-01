@@ -321,7 +321,7 @@ label start:
     show helena dark behind eldridge
     show eldridge
 
-    el "触摸~"
+    el "触杀~"
 
     hide light
     hide long_island
@@ -333,7 +333,7 @@ label start:
     show san_diego at right, dance
     show helena dark with dis
 
-    sd "好强，回转身体错开了埃尔德里奇的触摸"
+    sd "好强，回转身体错开了埃尔德里奇的触杀"
 
     show helena
     show san_diego dark with dis
@@ -362,19 +362,184 @@ label start:
 
     la "嗯？"
 
+    hide san_diego
+    show mccall at right
+    show laffey dark with dis
 
+    mc "拉菲，怎么了？"
 
-    ""
-    ""
-    ""
-    ""
-    ""
-    ""
-    ""
-    ""
-    ""
+    show laffey
+    show mccall dark with dis
 
+    la "和平时的触感不一样"
 
+    show laffey dark behind helena
+    show helena
+
+    hl "啊……啊…………"
+
+    hide mccall
+    show helena dark with dis
+    show cassin at right
+
+    cs "海伦娜脸变得通红"
+
+    hide cassin
+    show long_island at right
+
+    li "到底怎么了"
+
+    show helena behind laffey
+    show laffey at left, shake2
+    show long_island dark with dis
+
+    la "似乎有点爽朗的感觉"
+
+    show laffey dark behind helena
+    show helena at left, shake2
+
+    hl "啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊"
+
+    hide long_island
+    show mccall at right
+    show helena dark with dis
+
+    mc "海伦娜坏掉了"
+
+    show helena
+    show mccall dark with dis
+
+    hl "好了，我知道啦，我说实话"
+    hl "我今天穿了大号的内衣啦，圣路易斯姐说这样会让胸看起来像变大了"
+    hl "然后想着指挥官可能会高兴……"
+
+    show helena dark behind laffey
+    show laffey
+
+    la "那，蘑菇的事呢？"
+
+    show laffey dark behind helena
+    show helena
+
+    hl "所以都说是玩笑啦，被别人追问是不是胸变大了，糊弄乱说的而已"
+
+    hide mccall
+    show long_island at right, shake1
+    show helena dark with dis
+
+    li "怎么会这样？BUST UP蘑菇不存在的吗？"
+
+    show helena
+    show long_island dark with dis
+
+    hl "嗯，很遗憾……"
+
+    hide long_island
+    show mccall at right
+    show helena dark with dis
+
+    mc "啊啊，结果只是假消息啊"
+
+    hide mccall
+    show cassin at right
+
+    cs "果然，还是在房间里睡比较好"
+
+    hide cassin
+    show eldridge at right
+
+    el "失望…"
+
+    hide eldridge
+    hide laffey
+    hide helena
+    show san_diego at right, dance
+
+    sd "大家~在消沉什么呢"
+
+    show san_diego at right, dance
+    show long_island at left
+
+    li "因为BUST UP蘑菇的梦想破碎了，当然消沉了…"
+
+    show long_island dark with dis
+    show san_diego at right, dance
+
+    sd "但是，我非~~~常的开心哦~拉菲你怎么看？"
+
+    hide long_island
+    show laffey at left
+    show san_diego dark with dis
+
+    la "嘛，拉菲也反而挺开心的"
+
+    show san_diego
+    show laffey dark with dis
+
+    sd "是吧~确实BUST UP蘑菇没有了，但是大家一起努力到现在才是我们的宝物啦~"
+
+    hide laffey
+    show long_island at left, shake1
+    show san_diego dark with dis
+
+    li "圣地亚哥——"
+    li "嗯，没错。圣地亚哥和愉快的小伙伴们通过这次冒险，获得了不可或缺的羁绊！"
+
+    hide san_diego
+    show mccall at right
+    show long_island dark with dis
+
+    mc "怎么觉得……虽然长岛总结得很漂亮……"
+
+    hide mccall
+    show cassin at right
+
+    cs "嘘，麦考尔，别打扰，会变得麻烦起来的"
+
+    hide long_island
+    show helena at left
+    show cassin dark with dis
+
+    hl "那个…我究竟该怎么做才好…"
+
+    hide cassin
+    show eldridge at right
+    show helena dark with dis
+
+    el "海伦娜，别介意"
+
+    hide helena
+    show long_island at left
+    show eldridge dark with dis
+
+    li "总而言之，这个冒险是Happy End。那么大家，今天到我船坞去开Patty"
+
+    hide long_island
+    show laffey at left, bobble1
+
+    la "噢~"
+
+    hide eldridge
+    show cassin at right
+    show laffey dark with dis
+
+    cs "完全是想借酒消愁啊"
+
+    hide cassin
+    show mccall at right
+
+    mc "倒是无所谓，蘑菇的事就当没事发生哦"
+
+    hide mccall
+    hide laffey
+    show san_diego at center, dance
+
+    sd "Yeah！Let's Party！"
+
+    hide window
+    hide san_diego
+    with Dissolve(1)
+    pause 23
 
     scene black with Dissolve(8)
 
