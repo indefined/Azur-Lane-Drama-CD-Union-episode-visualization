@@ -73,6 +73,7 @@ label start:
 
     hide san_diego
     show mccall at left
+    show helena dark with dis
 
     mc "抱歉打扰你了，下次继续请你吃冰棒"
 
@@ -288,7 +289,7 @@ label start:
     hide san_diego
     show mccall at left
 
-    mc "不愧是SG，高性能雷达的性能力量啊"
+    mc "不愧是SG，高性能雷达的力量啊"
 
     hide mccall
     show cassin at left
@@ -308,7 +309,7 @@ label start:
     hide cassin
     show long_island at left, bobble1
 
-    li "没错，雷达就用埃尔德里奇的放电来干扰"
+    li "没错，雷达可以用埃尔德里奇的放电来干扰"
 
     show eldridge dark at right behind helena
     show long_island dark with dis
@@ -350,7 +351,7 @@ label start:
     show long_island at right, bobble1
     show laffey dark
 
-    li "拉菲，NICE~在海伦娜调整形式的时候很好的迂回过去了"
+    li "拉菲，NICE~在海伦娜调整形式前很好的迂回过去了"
 
     hide long_island
     show san_diego at right, dance
@@ -379,8 +380,8 @@ label start:
     hl "啊……啊…………"
 
     hide mccall
-    show helena dark with dis
     show cassin at right
+    show helena dark with dis
 
     cs "海伦娜脸变得通红"
 
@@ -389,7 +390,7 @@ label start:
 
     li "到底怎么了"
 
-    show helena behind laffey
+    show helena dark behind laffey
     show laffey at left, shake2
     show long_island dark with dis
 
@@ -457,7 +458,7 @@ label start:
 
     sd "大家~在消沉什么呢"
 
-    show san_diego at right, dance
+    show san_diego dark at right, dance
     show long_island at left
 
     li "因为BUST UP蘑菇的梦想破碎了，当然消沉了…"
