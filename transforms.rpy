@@ -137,6 +137,21 @@ transform grabR:
     easein_quad 0.5 xoffset 550
 
 
+transform spark:
+    alpha 0.5
+    xzoom 1 yzoom 1
+    pause 0.1
+    xzoom -1 yzoom 1
+    pause 0.1
+    xzoom 1 yzoom 1
+    pause 0.1
+    xzoom -1 yzoom -1
+    pause 0.1
+    xzoom 1 yzoom -1
+    pause 0.1
+    repeat
+
+
 transform shake1:
     xoffset 0
     linear 0.4 xoffset 25

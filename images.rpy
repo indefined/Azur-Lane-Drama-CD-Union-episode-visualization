@@ -19,11 +19,11 @@ image san_diego dark = im.MatrixColor(im.Scale("San_Diego.png", 539.2, 819.2), i
 image cassin = im.Scale("Cassin.png", 494.8, 819.2)
 image cassin dark = im.MatrixColor(im.Scale("Cassin.png", 494.8, 819.2), im.matrix.brightness(-0.6))
 
-image eldridge = im.Scale("Eldridge.png", 803.2, 819.2)
-image eldridge dark = im.MatrixColor(im.Scale("Eldridge.png", 803.2, 819.2), im.matrix.brightness(-0.6))
+image eldridge = im.Scale("Eldridge.png", 664.7, 700)
+image eldridge dark = im.MatrixColor(im.Scale("Eldridge.png", 664.7, 700), im.matrix.brightness(-0.6))
 
-image helena = im.Scale("Helena.png", 584.6, 819.2)
-image helena dark = im.MatrixColor(im.Scale("Helena.png", 584.6, 819.2), im.matrix.brightness(-0.6))
+image helena = im.Scale("Helena.png", 620.8, 870)
+image helena dark = im.MatrixColor(im.Scale("Helena.png", 620.8, 870), im.matrix.brightness(-0.6))
 
 image akashi = im.Scale("Akashi.png", 607, 819.2)
 image akashi dark = im.MatrixColor(im.Scale("Akashi.png", 607, 819.2), im.matrix.brightness(-0.6))
